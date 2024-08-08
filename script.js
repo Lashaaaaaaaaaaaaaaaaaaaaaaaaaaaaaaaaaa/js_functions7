@@ -1,17 +1,16 @@
 // 1 homework
 
-// function mySetTimeout(delay) {
-//     return new Promise((resolve) => {
-//         setTimeout(() => {
-//             resolve();
-//         }, delay);
-//     });
-// }
+function mySetTimeout(delay) {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve();
+        }, delay);
+    });
+}
 
-// mySetTimeout(3000).then(() => {
-//     console.log('3 seconds passed');
-// });
-
+mySetTimeout(3000).then(() => {
+    console.log('3 seconds passed');
+});
 
 
 
